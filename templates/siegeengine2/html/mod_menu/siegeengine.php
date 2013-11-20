@@ -34,7 +34,7 @@ defined('_JEXEC') or die;
     ?>>
     <?php
     foreach ($list as $i => &$item) :
-        $class = 'item-'.$item->id;
+        $class = 'elemento item-'.$item->id;
         if ($item->id == $active_id) {
             $class .= ' current';
         }
