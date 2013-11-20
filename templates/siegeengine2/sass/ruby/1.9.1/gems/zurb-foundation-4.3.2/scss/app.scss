@@ -153,8 +153,9 @@ li.element:hover{
     font-weight: bold;
   }
   a { visibility: hidden; }
-  :hover { border: 0; }
 }
+
+  li.item-109:hover { border: 1px solid black; }
 
 @media screen and (max-width: 970px){
   li.item-109{ min-height: 250px; }
@@ -162,7 +163,7 @@ li.element:hover{
 @media screen and (max-width: 530px){
   li.item-109{ min-height: 163px; }
 }
-@media screen and (max-width: 530px){
+@media screen and (max-width: 430px){
   li.item-109{ width: 352px; }
 }
 

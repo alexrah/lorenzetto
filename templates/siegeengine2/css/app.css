@@ -7395,39 +7395,40 @@ li.element:hover {
 #sidebar a, li.item-109 a {
   visibility: hidden;
 }
-/* line 156, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
-#sidebar :hover, li.item-109 :hover {
-  border: 0;
+
+/* line 158, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+li.item-109:hover {
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 970px) {
-  /* line 160, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 161, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     min-height: 250px;
   }
 }
 @media screen and (max-width: 530px) {
-  /* line 163, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 164, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     min-height: 163px;
   }
 }
-@media screen and (max-width: 530px) {
-  /* line 166, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+@media screen and (max-width: 430px) {
+  /* line 167, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     width: 352px;
   }
 }
-/* line 171, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 172, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer {
   margin-left: 5%;
 }
-/* line 173, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 174, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer #ruler {
   position: relative;
   z-index: 200;
 }
-/* line 177, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 178, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer #girandola {
   z-index: 200;
   position: relative;
@@ -7436,14 +7437,14 @@ li.element:hover {
   margin-bottom: -15%;
 }
 
-/* line 195, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 196, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .content {
   display: inline-block;
   float: right;
   width: 70%;
 }
 
-/* line 203, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 204, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 header.page-header {
   visibility: hidden;
 }
