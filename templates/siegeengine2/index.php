@@ -213,7 +213,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
       itemSelector : '.element',
       animationEngine : 'jquery',
       masonry : {
-        columnWidth : 100
+        columnWidth : 30
       },
       getSortData : {
         symbol : function( $elem ) {

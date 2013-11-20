@@ -77,23 +77,26 @@
 
 ul{
   margin-top: 5%;
-  margin-left: 250px;
+  // margin-left: 250px;
+  float: left;
+  // position: relative;
+  // display: inline-block;
   .element {
     list-style: none;
   }
 }
 
-@media screen and (min-width: 1250px){
-
-  ul{ margin-left: 15%; }
-}
-
-@media screen and (max-width: 1000px){
-  #footer {
-    margin-left: 20%;
-  }
-}
-
+// @media screen and (min-width: 1250px){
+// 
+//   ul{ margin-left: 15%; }
+// }
+// 
+// @media screen and (max-width: 1000px){
+//   #footer {
+//     margin-left: 20%;
+//   }
+// }
+// 
 li.element{
   border: 6px solid transparent;
 }
@@ -126,27 +129,44 @@ li.element:hover{
   }
 }
 
-#sidebar{
+#sidebar,li.item-109{
   // position: absolute;
   position: relative;
-  display: inline-block;
-  top: 0%;
-  left: 1%;
+  // display: inline-block;
+  // top: 0%;
+  // left: 1%;
   min-height: 600px;
+  width: 230px; 
   padding: 1%;
   border: 1px solid black;
   text-align: center;
   vertical-align: bottom;
-  float: left;
+  // float: left;
   background-color: rgb(255,255,255);
+  background-image:url('http://www.teddybackup.com/lorenzetto/images/logo_lorenzetto.png');
+  background-position: top center;
+  background-repeat: no-repeat;
   p{
     margin: 1px auto;
     position: relative;
     top: 370px;
     font-weight: bold;
-
   }
+  a { visibility: hidden; }
+  :hover { border: 0; }
 }
+
+@media screen and (max-width: 970px){
+  li.item-109{ min-height: 250px; }
+}
+@media screen and (max-width: 530px){
+  li.item-109{ min-height: 163px; }
+}
+@media screen and (max-width: 530px){
+  li.item-109{ width: 352px; }
+}
+
+
 
 .footer{
   margin-left: 5%;
@@ -158,8 +178,9 @@ li.element:hover{
     z-index: 200;
     position: relative;
     float: right;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
     right: 7%;
+    margin-bottom: -15%;
 
   }
 }
@@ -175,5 +196,8 @@ li.element:hover{
   // margin-left: 44%;
   display: inline-block;
   float: right;
-  clear: right;
+  // clear: left;
+  width: 70%;
 }
+
+header.page-header { visibility: hidden; }

@@ -54,8 +54,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/var/www/vhosts/teddybackup.com/httpdocs/lorenzetto/logs';
-	public $tmp_path = '/var/www/vhosts/teddybackup.com/httpdocs/lorenzetto/tmp';
+	public $log_path = '/opt/lampp/htdocs/lorenzetto/logs';
+	public $tmp_path = '/opt/lampp/htdocs/lorenzetto/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }
