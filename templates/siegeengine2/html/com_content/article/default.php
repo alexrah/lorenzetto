@@ -22,7 +22,7 @@ $info = $this->item->params->get('info_block_position', 0);
 ?>
 
 <?php if ($this->params->get('show_page_heading', 1)) : ?>
-<section>
+<section class="content">
 	<header class="page-header">
 		<h1><?php echo $this->escape($this->params->get('page_heading')); ?></h1>
 	</header>
