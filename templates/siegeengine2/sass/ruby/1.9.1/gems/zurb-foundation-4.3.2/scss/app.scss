@@ -77,6 +77,7 @@
 
 ul{
   margin-top: 5%;
+  margin-left: 2%;
   // margin-left: 250px;
   float: left;
   // position: relative;
@@ -138,6 +139,7 @@ li.element:hover{
   min-height: 600px;
   width: 230px; 
   padding: 1%;
+  // margin-left: 2%;
   border: 1px solid black;
   text-align: center;
   vertical-align: bottom;
@@ -157,11 +159,45 @@ li.element:hover{
 
   li.item-109:hover { border: 1px solid black; }
 
+@media screen and (min-width: 970px){
+  .content{ 
+    position: absolute;
+    top: -500px;
+    right: 3%;
+    width: 70%;
+  }
+
+
+}
+
 @media screen and (max-width: 970px){
   li.item-109{ min-height: 250px; }
+  .content {
+    margin-top: -10%;
+    float: right;
+    width: 70%;
+    margin-right: 2%;
+  }
 }
+
+@media screen and (max-width: 890px){
+  .content {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 780px){
+  .content {
+    width: 60%;
+  }
+}
+
+
 @media screen and (max-width: 530px){
   li.item-109{ min-height: 163px; }
+  .content {
+    width: 100%;
+    margin-top: 0%;
+  }
 }
 @media screen and (max-width: 430px){
   li.item-109{ width: 352px; }
@@ -195,10 +231,12 @@ li.element:hover{
 
 .content {
   // margin-left: 44%;
-  display: inline-block;
-  float: right;
+  // display: inline-block;
+  // float: right;
   // clear: left;
-  width: 70%;
+  // width: 70%;
+  // margin-right: 2%;
+
 }
 
 header.page-header { visibility: hidden; }

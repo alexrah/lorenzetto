@@ -7324,53 +7324,54 @@ a.th {
 /* line 78, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 ul {
   margin-top: 5%;
+  margin-left: 2%;
   float: left;
 }
-/* line 84, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 85, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 ul .element {
   list-style: none;
 }
 
-/* line 100, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 101, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 li.element {
   border: 6px solid transparent;
 }
 
-/* line 103, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 104, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 li.element:hover {
   border: 6px solid black;
 }
 
-/* line 109, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 110, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-102 {
   background-color: #eb6a42;
 }
-/* line 112, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 113, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-103 {
   background-color: #ffe619;
 }
-/* line 115, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 116, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-104 {
   background-color: #85bd61;
 }
-/* line 118, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 119, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-105 {
   background-color: #00aba4;
 }
-/* line 121, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 122, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-106 {
   background-color: #538eb4;
 }
-/* line 124, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 125, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-107 {
   background-color: #7c6596;
 }
-/* line 127, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 128, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu .item-108 {
   background-color: #808285;
 }
 
-/* line 132, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 133, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #sidebar, li.item-109 {
   position: relative;
   min-height: 600px;
@@ -7384,51 +7385,86 @@ li.element:hover {
   background-position: top center;
   background-repeat: no-repeat;
 }
-/* line 149, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 151, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #sidebar p, li.item-109 p {
   margin: 1px auto;
   position: relative;
   top: 370px;
   font-weight: bold;
 }
-/* line 155, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 157, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #sidebar a, li.item-109 a {
   visibility: hidden;
 }
 
-/* line 158, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 160, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 li.item-109:hover {
   border: 1px solid black;
 }
 
+@media screen and (min-width: 970px) {
+  /* line 163, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .content {
+    position: absolute;
+    top: -500px;
+    right: 3%;
+    width: 70%;
+  }
+}
 @media screen and (max-width: 970px) {
-  /* line 161, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 174, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     min-height: 250px;
   }
+
+  /* line 175, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .content {
+    margin-top: -10%;
+    float: right;
+    width: 70%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 890px) {
+  /* line 184, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .content {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* line 189, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .content {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 530px) {
-  /* line 164, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 196, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     min-height: 163px;
   }
+
+  /* line 197, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  .content {
+    width: 100%;
+    margin-top: 0%;
+  }
 }
 @media screen and (max-width: 430px) {
-  /* line 167, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+  /* line 203, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   li.item-109 {
     width: 352px;
   }
 }
-/* line 172, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 208, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer {
   margin-left: 5%;
 }
-/* line 174, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 210, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer #ruler {
   position: relative;
   z-index: 200;
 }
-/* line 178, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 214, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .footer #girandola {
   z-index: 200;
   position: relative;
@@ -7437,14 +7473,7 @@ li.item-109:hover {
   margin-bottom: -15%;
 }
 
-/* line 196, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
-.content {
-  display: inline-block;
-  float: right;
-  width: 70%;
-}
-
-/* line 204, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+/* line 242, ../sass/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 header.page-header {
   visibility: hidden;
 }
